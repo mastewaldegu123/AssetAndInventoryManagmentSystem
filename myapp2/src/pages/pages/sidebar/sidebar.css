@@ -1,0 +1,125 @@
+.smallsidebar {
+    height: 90vh;
+    width: 200px;
+    transition: 0.5 ease;
+    cursor: pointer;
+    background-color: #6C63FF;
+    color: white;
+    
+    /* sidebar above the content */
+    position: absolute;
+    z-index: 1;
+}
+
+.bigsidebar {
+    width: 50px;
+    height: 90vh;
+    transition: 0.5 ease;
+    background-color: #6C63FF;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-items {
+    color: white;
+    text-decoration: none;
+}
+
+.active-menu {
+    color: black;
+}
+
+.active-menu svg {
+    color: black;
+}
+
+.bigsidebar .menu-items {
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+  }
+  main {
+    width: 100%;
+    padding: 20px;
+  }
+  .sidebar {
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  .top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .bars {
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  .link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover {
+    background: rgb(219, 222, 225);
+    color: #000;
+    transition: all 0.5s;
+  }
+  .active {
+    background: #000000;
+  }
+  .icon,
+  .link_text {
+    font-size: 20px;
+  }
+  .first {
+    width: 30%;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: rgb(205, 206, 206);
+  }
+  .second {
+    padding-left: 40%;
+    font-weight: bold;
+    font-size: large;
+  }
+  .new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third {
+    display: flex;
+    padding-top: 570px;
+  }
+  .third1 {
+    border-radius: 5px;
+    background-color: rgb(160, 163, 163);
+  }
+  .third1:hover {
+    background-color: aliceblue;
+  }
+  .a {
+    border-radius: 5px;
+  }
+  .third2 {
+    padding-top: 250px;
+  }
+  .third3 {
+    padding-top: 350px;
+  }
+  .third4 {
+    padding-top: 400px;
+  }
+  
